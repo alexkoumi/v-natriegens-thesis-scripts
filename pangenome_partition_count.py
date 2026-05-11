@@ -1,3 +1,31 @@
+"""
+Purpose:
+    Summarise the taxonomic composition of UniProt reference proteomes.
+
+Description:
+    This script reads an Excel file containing reference proteomes for a
+    selected domain and calculates the number of proteomes and total number of
+    proteins represented at species, genus, family, and phylum levels.
+
+Input:
+    - Excel file containing reference proteomes.
+    - Required columns:
+        - "Proteome Id"
+        - "Protein count"
+        - "Taxonomic lineage"
+
+Output:
+    - Excel workbook containing separate summary sheets for:
+        - Species-level counts
+        - Genus-level counts
+        - Family-level counts
+        - Phylum-level counts
+
+Required Python packages:
+    - pandas
+    - openpyxl
+"""
+
 import pandas as pd
 
 # User-defined inputs
