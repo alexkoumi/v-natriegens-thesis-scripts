@@ -1,29 +1,20 @@
 """
 Purpose:
-    Summarise the taxonomic composition of UniProt reference proteomes.
+    Count the number of genes assigned to each PPanGGOLiN pangenome partition.
 
 Description:
-    This script reads an Excel file containing reference proteomes for a
-    selected domain and calculates the number of proteomes and total number of
-    proteins represented at species, genus, family, and phylum levels.
+    This script reads the PPanGGOLiN matrix.csv file and counts the number of gene
+    locus tags assigned to each pangenome partition category. It then writes a text
+    summary reporting gene counts per partition and the total number of counted genes.
 
 Input:
-    - Excel file containing reference proteomes.
-    - Required columns:
-        - "Proteome Id"
-        - "Protein count"
-        - "Taxonomic lineage"
+    - PPanGGOLiN presence/absence matrix file.
 
 Output:
-    - Excel workbook containing separate summary sheets for:
-        - Species-level counts
-        - Genus-level counts
-        - Family-level counts
-        - Phylum-level counts
+    - Text file containing gene counts per pangenome partition.
 
 Required Python packages:
     - pandas
-    - openpyxl
 """
 
 import pandas as pd
