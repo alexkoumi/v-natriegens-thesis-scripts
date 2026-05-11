@@ -22,16 +22,16 @@ This repository contains all Python scripts and command-line workflows used for 
 
 ## Requirements
 
-pandas
-tqdm
-numpy
-biopython
-openpyxl
-requests
-matplotlib
-scikit-learn
-seaborn
-scipy
+pandas,
+tqdm,
+numpy,
+biopython,
+openpyxl,
+requests,
+matplotlib,
+scikit-learn,
+seaborn,
+scipy,
 statsmodels
 
 ## Notes
