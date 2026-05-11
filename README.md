@@ -20,6 +20,20 @@ This repository contains all Python scripts and command-line workflows used for 
 - 'clustering-analysis/': statistical significance tests for feature inclusion, determination of optimal k values, clustering implementation and results summarisation.
 - 'signal-peptide-analysis/': processing and summarisation of signal peptide and cleavage site predictions.
 
+## Requirements
+
+pandas
+tqdm
+numpy
+biopython
+openpyxl
+requests
+matplotlib
+scikit-learn
+seaborn
+scipy
+statsmodels
+
 ## Notes
 
 Local file paths and file names used during the analyses were replaced with placeholders.
