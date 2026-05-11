@@ -2,7 +2,7 @@
 
 This repository contains all Python scripts and command-line workflows used for all computational analyses conducted in the research-based master's thesis regarding the exploration of the *Vibrio natriegens* pangenome.
 
-## Main Objectives
+## Thesis Main Objectives
 
 1.	Delineate the pangenome of *V. natriegens*
 2.	Identify homologs of proteins encoded by strain-specific *V. natriegens* genes in eukaryotic, bacterial, archaeal and viral domains and determine the taxonomic distribution of the corresponding matches.
